@@ -197,7 +197,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For support and queries:
 - **GitHub Issues**: [Create an issue](https://github.com/satyamrojhax/Bihar-Board-Result-2026/issues)
-- **Email**: satyam@example.com
+- **Email**: satyamrojhax@gmail.com
 - **Documentation**: [API Docs](https://your-app.com/docs)
 
 ---
