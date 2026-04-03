@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "users": {
+      "$uid": {
+        ".read": "$uid === auth.uid || auth !== null",
+        ".write": "$uid === auth.uid || auth !== null",
+        ".validate": "auth !== null"
+      }
+    },
+    "shared": {
+      ".read": "auth !== null",
+      ".write": "auth !== null",
+      ".validate": "auth !== null && newData.child('sharedBy').val() === auth.uid"
+    }
+  }
+}
